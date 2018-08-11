@@ -1,1 +1,80 @@
-// All of your CSS goes here
+/* // All of your CSS goes here */
+body {
+  font-family: 'Lobster', cursive;
+  background: linear-gradient(to bottom right, #FFB766, #204260);
+}
+
+#banner {
+  /* background-image: url("https://www.indiewire.com/wp-content/uploads/2017/07/adventure_time_episode_268_still.jpg?w=780"); */
+  height: 25em;
+  width: 100%;
+  position: relative
+}
+
+#banner img {
+  width: 100%;
+  height: auto%;
+}
+
+#banner p {
+  color: #3a5655;
+  font-size: 55px;
+  font-weight: 600;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-shadow:
+  -1px -1px 0 #FCC37C,
+  1px -1px 0 #FCC37C,
+  -1px 1px 0 #FCC37C,
+  3px 3px 0 #FCC37C;  
+}
+
+.button-menu {
+  padding-top: 1.2em;
+}
+
+.button-menu button {
+  border-radius: 12px;
+  margin-top: 1em;
+  background-color: #3a5655;
+  border: 4px;
+  border-color: #FCC37C;
+  color: #FCC37C;
+  padding: 1.3em;
+}
+
+.button-menu button:hover {
+  background-color: #778961
+}
+
+h1 {
+  color: #3a5655;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-shadow:
+  -1px -1px 0 #FCC37C,
+  1px -1px 0 #FCC37C,
+  -1px 1px 0 #FCC37C,
+  3px 3px 0 #FCC37C;  
+}
+
+img {
+  width: 60%;
+  height: auto;
+  padding: 1em;
+  float: left;
+}
+
+div p {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  font-weight: 100;
+}

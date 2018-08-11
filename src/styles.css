@@ -14,6 +14,7 @@ body {
 #banner img {
   width: 100%;
   height: auto;
+  margin
 }
 
 #banner p {
@@ -31,10 +32,6 @@ body {
   1px -1px 0 #FCC37C,
   -1px 1px 0 #FCC37C,
   3px 3px 0 #FCC37C;  
-}
-
-.button-menu {
-  padding-top: 1.2em;
 }
 
 .button-menu button {
@@ -69,7 +66,7 @@ h1 {
 img {
   width: 60%;
   height: auto;
-  padding: 1em;
+  margin: 10px;
   float: left;
 }
 

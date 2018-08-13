@@ -1,5 +1,6 @@
 /* // All of your CSS goes here */
 body {
+  margin: 3em 7em;
   font-family: 'Lobster', cursive;
   background: linear-gradient(to bottom right, #FFB766, #204260);
 }
@@ -22,7 +23,7 @@ body {
   font-weight: 600;
   margin: 0;
   position: absolute;
-  top: 45%;
+  top: 3em;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -51,7 +52,7 @@ h1 {
   color: #3a5655;
   margin: 0;
   position: absolute;
-  top: 30%;
+  top: 5em;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);

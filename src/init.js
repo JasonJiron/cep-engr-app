@@ -4,7 +4,7 @@ var aboutMe = {
   lastName: "Jiron",
   jobTitle: "Premier Partner / Traveler Care",
   homeOffice: "RPP",
-  moreInfo: "I'm really excited about the potential of this program. I completed the Software Development \"Bootcamp\" offered by Austin Community College Nearly 6 months ago. Since then, I've been revisiting the fundamentals of JavaScript to help gain a deeper understanding of programming. I can't wait to start working on the curriculum and projects in this program with HomeAway!"
+  tellMeMore: "I'm really excited about the potential of this program. I completed the Software Development \"Bootcamp\" offered by Austin Community College Nearly 6 months ago. Since then, I've been revisiting the fundamentals of JavaScript to help gain a deeper understanding of programming. I can't wait to start working on the curriculum and projects in this program with HomeAway!"
 }
 // console.log(aboutMe);
 // using jQuery and the object above, display the information as the appropriate button is clicked
@@ -29,6 +29,6 @@ $(".btn5").click(function() {
   $("#last-name").hide();
   $("#job-title").hide();
   $("#home-office").hide();
-  $("#more-info").text(aboutMe.moreInfo);
+  $("#more-info").text(aboutMe.tellMeMore);
 });
 
